@@ -205,7 +205,7 @@ let targets: [CustomTarget] = [
       "UnsafeBufferPointer+Extras.swift.gyb",
       "UnsafeMutableBufferPointer+Extras.swift.gyb",
     ]),
-
+  /*
   .target(
     kind: .exported,
     name: "BitCollections",
@@ -257,6 +257,7 @@ let targets: [CustomTarget] = [
     kind: .test,
     name: "OrderedCollectionsTests",
     dependencies: ["OrderedCollections", "_CollectionsTestSupport"]),
+  */
 
   .target(
     kind: .exported,
@@ -268,6 +269,7 @@ let targets: [CustomTarget] = [
     name: "RopeModuleTests",
     dependencies: ["_RopeModule", "_CollectionsTestSupport"]),
 
+  /*
   .target(
     kind: .exported,
     name: "Collections",
@@ -280,6 +282,7 @@ let targets: [CustomTarget] = [
       "_RopeModule",
     ],
     exclude: ["CMakeLists.txt"])
+  */
 ]
 
 var _products: [Product] = []
